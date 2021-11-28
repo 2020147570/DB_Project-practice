@@ -1,7 +1,23 @@
 # DB Project practice by jyoo
 
-= .gitignore =
-.* (.gitignore , .editorconfig)
-node_modules
+.gitignore = {
+    .*
+    node_modules
+    config/dev.js
+}
 
-config/dev.js
+.editorconfig = {
+    = .editorconfig =
+    root = true
+
+    [*]
+    indent_style = space
+    indent_size = 4
+    end_of_line = crlf
+    charset = utf-8
+    trim_trailing_whitespace = false
+    insert_final_newline = false
+
+    [*.{html,css,js,jsx,json}]
+    indent_size = 2
+}
