@@ -1,1 +1,7 @@
 # DB Project practice by jyoo
+
+= .gitignore =
+.* (.gitignore , .editorconfig)
+node_modules
+
+config/dev.js
