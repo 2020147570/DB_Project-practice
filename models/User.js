@@ -26,7 +26,7 @@ const userSchema = mongoose.Schema({
     type: String,
   },
   token: {
-    type
+    type: String
   },
   tokenExp: {
     type: Number,
@@ -35,4 +35,4 @@ const userSchema = mongoose.Schema({
 
 const User = mongoose.model('User', userSchema);
 
-module.exeports = { User };
+module.exports = { User };
